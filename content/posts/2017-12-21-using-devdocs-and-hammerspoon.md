@@ -9,6 +9,8 @@ tags: ["Dash", "DevDocs", "HammerSpoon"]
 
 在使用 DevDocs 时，如果你不想每次都要打开浏览器然后才能查文档，可以使用 electron 封装的版本来达到类似桌面应用的体验。比如：https://github.com/egoist/devdocs-desktop
 
+<!--more-->
+
 ## 利用 HammerSpoon 配置快捷键
 
 在 Dash 中，可以使用 `command + '` 全局快捷键来激活和隐藏 Dash 窗口，可以在使用时，可以随机用快捷键激活 Dash 查看文档。

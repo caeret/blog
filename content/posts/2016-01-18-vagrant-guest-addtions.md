@@ -30,6 +30,8 @@ mount: unknown filesystem type 'vboxsf'
 
 根据启动过程中第一段信息的提示，基本确定为`guest addtions`未正确安装引起的问题。
 
+<!--more-->
+
 ## 安装 guest additions
 * 首先，使用`vagrant halt`命令关闭虚拟主机。
 * 然后在 virtualbox 中打开虚拟主机，进入系统。

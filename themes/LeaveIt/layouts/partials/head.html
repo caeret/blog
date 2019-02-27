@@ -20,7 +20,7 @@
   <title>
        {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
        {{ if .IsHome }}
-           {{ .Site.Title }}
+           {{ .Site.Title }} |  {{ .Site.Params.subtitle }}
        {{ else if .Params.heading }}
            {{ .Params.heading }}
        {{ else }}

@@ -21,6 +21,8 @@ libgd-dev \
 libxslt1-dev \
 ```
 
+<!--more-->
+
 执行 `ln -s /usr/include/x86_64-linux-gnu/curl/ /usr/local/include/curl` 链接编译需要的 curl 文件到对应的位置。
 
 ## 下载 PHP 源码

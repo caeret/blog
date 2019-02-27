@@ -19,7 +19,7 @@
     {{ end }}
   
 {{ else }}
-    {{ $main := slice  $jquery $main | resources.Concat "/js/vendor_main.js" | resources.Minify}}
+    {{ $main := slice $jquery $prettify $main | resources.Concat "/js/vendor_main.js" | resources.Minify}}
     <script src="{{ printf "%s%s" $cdn_url $main.RelPermalink }}" async=""></script>
 {{ end }}
 

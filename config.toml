@@ -5,7 +5,7 @@ theme = "LeaveIt"
 
 [menu]
   [[menu.main]]
-    name = "Blog"
+    name = "Posts"
     url = "/posts/"
     weight = 1
 
@@ -28,8 +28,8 @@ theme = "LeaveIt"
     since = 2015
     author = "Caeret"
     avatar = "/images/me/avatar.png"
-    subtitle = "Big brother is watching U."
-    home_mode = ""
+    subtitle = "Hello, world."
+    home_mode = "post"
 
     google_verification = ""
 

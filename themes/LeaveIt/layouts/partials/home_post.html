@@ -15,7 +15,7 @@
     {{ end }}
  
 </div>
-	{{ range (.Paginate .Pages).Pages }}
+	{{ range (.Paginate (where .Pages "Section" "posts")).Pages }}
 		<article class="post" itemscope itemscope="" itemtype="http://schema.org/Article">
 
 			<header class="post-header">
@@ -31,6 +31,9 @@
 
        			{{ .Summary }}
 			</div>
+                        {{ if .Truncated }}
+                        <div class="post-read-more"><a href="{{ .RelPermalink }}">Read More…</a></div>
+                        {{ end }}
 			<div class="post-footer">
 				<div class="post-meta">
                 <span class="post-time">

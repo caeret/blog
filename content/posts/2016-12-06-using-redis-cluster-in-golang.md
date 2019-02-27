@@ -7,6 +7,8 @@ tags: ["go", "redis"]
 
 最近用 `Go` 来写部门的一组服务接口 ，其中使用到了 `redis`。部门内部使用的 `redis` 服务端由 `codis` 迁移到了 `redis cluster`，于是需要能支持 `redis` 官方集群模式的库。看了一下发现 `redis` 官方推荐的有 `redigo` 和 `radix` 两个库。经过简单比较后，还是选择了更简洁的 `radix`。
 
+<!--more-->
+
 ## 连接集群
 
 ```go

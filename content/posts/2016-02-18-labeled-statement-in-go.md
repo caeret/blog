@@ -10,6 +10,8 @@ tags: ["go"]
 LabeledStmt = Label ":" Statement .
 ```
 
+<!--more-->
+
 以下代码使用`label`标记整个`for`循环语句，将会无限循环输出`0123`：
 
 ```go
