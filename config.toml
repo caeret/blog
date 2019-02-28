@@ -2,6 +2,7 @@ baseURL = "https://caeret.com/"
 languageCode = "zh"
 title = "Caeret"
 theme = "LeaveIt"
+disqusShortname = "caeret"
 
 [menu]
   [[menu.main]]
