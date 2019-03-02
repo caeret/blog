@@ -5,6 +5,11 @@
 .post-read-more {
   margin-top: 30px;
   a {
-   border-bottom: 3px solid #ddd;
+    display: inline-block;
+    border-bottom: 3px solid #ddd;
   }
+}
+
+.dark-theme .post-read-more a {
+  border-color: #555;
 }
